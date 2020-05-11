@@ -13,7 +13,7 @@ ENV TOMCAT_MAJOR=8 TOMCAT_VERSION=8.5.50 TOMCAT_SHA512=ffca86027d298ba107c7d01c7
 
 ENV TOMCAT_TGZ_URL \
 	# http://mirrors.aliyun.com/apache/tomcat/tomcat-$TOMCAT_MAJOR/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
-	https://archive.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
+	http://archive.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
 
 COPY _files /tmp
 
