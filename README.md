@@ -1,4 +1,4 @@
-# Base Web Tomcat
+# 基础镜像 WEB Tomcat 8.5.50 OpenJDK 8u171
 
 Base Image For Web With Tomcat 8.5.50 Alpine
 
